@@ -1,7 +1,6 @@
 ## First of all...
 https://photos.app.goo.gl/JYtPncG3UU9RZ4YFA
-^^^ Demo Video
-***So sorry for submitting this so late!!***
+***So sorry for submitting this so late, this is the link to the video!!***
 ## ESP32.ino
 So basically the esp code uses the pubsub MQTT library to publish the analog read value to the topic **"terra/hum"** for terrarium humidity. 
 ## Control.py & Conditions
