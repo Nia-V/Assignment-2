@@ -1,0 +1,32 @@
+[
+    {
+        "conditions": [
+            {	
+                "topic": "terra/hum",
+                "comparison": "<",
+                "value": 40
+                        }
+        ],
+        "results": [
+            {
+                "topic": "terra/led",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {	
+                "topic": "terra/hum",
+                "comparison": ">",
+                "value": 50
+                        }
+        ],
+        "results": [
+            {
+                "topic": "terra/led",
+                "value": "off"
+            }
+        ]
+    }
+]
